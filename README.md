@@ -1,37 +1,5 @@
 # scroll-art
 
-## 1. Triangle Hall
+## 1. process
 
-`ScrollArtV1Pattern.java` is a program that prints straight lines moving either left or right. 
-Then a new line, at random intervals, branches off an existing line in the opposite direction. 
-It creates a pattern that looks like a bunch of triangles. I was inspired by watching Al Sweigart's Scroll Art video [here](https://www.youtube.com/watch?v=Sjk4UMpJqVs&embeds_referring_euri=https%3A%2F%2Fscrollart.org%2F&source_ve_path=MzY4NDIsMjM4NTE). 
-
-(Citation Points: kind of 1, kind of 3 from Al Sweigart, so **2**)
-
-
-## 2. Text-moji Art 
-
-My text-moji art is in `ScrollArtV1.java`.
-I was inspired by the bunny textmoji from a Google search of "bunny ascii emoticon" (credit: belongs to the internet it seems like): 
-![](https://ih1.redbubble.net/image.2920171915.3297/raf,360x360,075,t,fafafa:ca443f4786.jpg)
-
-It was only 8x3 so I added a rocket detailing to it. 
-(Citation Points: kind of 1, kind of 3, so **2**)
-
-I decided to make a 8x6 carrot after I made this bunny rocket. Here is the carrot: 
-```
-     \)/
-    --v 
-   /r )
-  >r./
- / '  
-c_/   if
-```
-
-#### Process 
-This carrot came from my head. I wrote out the carrot on an index card first. On the right is the carrot, and then I made a grid to fit it. 
-![](carrot-drawing.jpeg)
-
-Then I input each individual character into its 2D location into Image.java, in the `getImage()` function. 
-
-(Citation Points: 1)
+Doing this project was quite fun in my opinion. I started with brainstorming ideas for the ASCII art, and came up with a basketball going to hoop and a small cat artwork that I thought looked good. After that I used the online ASCII draft doc to create those ideas, which took an hour or two. The biggest challenge with this was the limitation of the characters that I am limited in ASCII. Often I would spend a while tweaking a specific part of the art until it looks as good as I can get it to be, which was quite time consuming. After I was satisfied with my art, I had to convert it into a 2D array form in java. This ended up taking a lot of time (one had 100+ ASCII characters!), because I had to type them all manually, which took a few hours. I had frustration in getting the code to work, given that one of the characters, ‘–’, was erroring even as an escape character, so I had to replace it with ‘-’, which looks very similar. After some more frustration, as it was getting pretty late, I decided to use one of the templates provided at https://github.com/ifenghm/scroll-art. I forked this and made a new repository and worked from there. Sometimes the code is quite buggy, like some of the time it only generates half a basketball. But it works so it's ok. I also submitted a SEPARATE artwork to the ASCII collection that I thought looked cool, which I had come up with while experimenting with the ASCII. Overall, I had fun with this project despite a few obstacles. Next time I do a project like this in this class I should not start the code the day before (even though I already finished the art by this point), so I don’t stay up until 1:30 AM and have to take a few shortcuts to get enough sleep. In the future, I think whenever I’m bored I might create some random ASCII art and send it into that collection for fun.
