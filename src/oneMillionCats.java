@@ -17,7 +17,7 @@ public class oneMillionCats {
         while (true) {
             // At each column on the top row, 1% chance to add a new image
             for (int x = 0; x < WIDTH - cat_WIDTH; x++) {
-                if (rand.nextDouble() < 0.02) {
+                if (rand.nextDouble() < 0.005) {
                     loadNextRowsWithImage(nextRows, x);
                 }
             }
