@@ -17,7 +17,7 @@ public class Basketballs {
         while (true) {
             // At each column on the top row, 1% chance to add a new image
             for (int x = 0; x < WIDTH - basketball_WIDTH; x++) {
-                if (rand.nextDouble() < 0.0005) {
+                if (rand.nextDouble() < 0.005) {
                     loadNextRowsWithImage(nextRows, x);
                 }
             }
@@ -25,7 +25,7 @@ public class Basketballs {
             System.out.println(new String(nextRows[0]));
             // Shift all rows up
             shiftRowsUp(nextRows);
-            Thread.sleep(2); // Delay in ms
+            Thread.sleep(20); // Delay in ms
             long time = System.currentTimeMillis() - startTime;
             iterations++;
             
